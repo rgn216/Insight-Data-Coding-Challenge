@@ -4,7 +4,7 @@ Please make sure to remove all hidden files in the wc_input folder, you might ot
 
 ##WordCount
 
-`WordCount.java` uses a traditional hash table structure to represent the data. I relied on the SorteMap which is essentially a sorted hashtable. Each word is a key to which we associate a number of counts. I am aware of other more powerful techniques (the Map/Reduce paradigm), that could have been tested as well, which could be an interesting problem to solve next.
+`WordCount.java` uses a traditional hash table structure to represent the data. I relied on the SorteMap which is essentially a sorted hashtable instead of hashtable (which is unordered). Each word is a key to which we associate its number of counts. I am aware of other more powerful techniques (the Map/Reduce paradigm), that could have been tested as well. This is an interesting topic to explore next.
 
 ##RunningMedian
 ###Overview of RunningMedian 
